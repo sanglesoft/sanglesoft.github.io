@@ -102,7 +102,7 @@ h6 {
 }
 
 h6 {
-    font-size: 12px
+    font-size: 14px
 }
 
 .art-sm-text {
@@ -1057,7 +1057,12 @@ blockquote:after {
 .art-info-bar .art-ls-social a {
     color: #8c8c8e;
     -webkit-transition: .2s ease-in-out;
-    transition: .2s ease-in-out
+    transition: .2s ease-in-out;
+    font-size: 0px;
+}
+
+.art-info-bar .art-ls-social a i {
+    font-size: 16px;
 }
 
 .art-info-bar .art-ls-social a:hover {
@@ -1419,12 +1424,6 @@ html.is-animating .transition-fade {
 }
 
 .art-counter-frame {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
     margin-bottom: 30px;
     opacity: 0;
     position: relative
@@ -2024,7 +2023,7 @@ footer {
     align-items: center;
     -webkit-box-shadow: 0 1px 4px 0 rgba(15, 15, 20, .1);
     box-shadow: 0 1px 4px 0 rgba(15, 15, 20, .1);
-    font-size: 11px;
+    font-size: 14px;
     color: #8c8c8e;
     -webkit-transition: .55s ease-in-out;
     transition: .55s ease-in-out;
@@ -2642,4 +2641,8 @@ html.is-animating .fade-left {
         -webkit-transform: scale(1);
         transform: scale(1)
     }
+}
+
+.container-fluid.padding-block {
+    min-height: calc(100vh - 856px)
 }
